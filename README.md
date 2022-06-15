@@ -7,7 +7,6 @@
 [![](https://img.shields.io/github/followers/iKath?label=follow&style=social)](https://github.com/iKath?tab=followers)
 [![Stars](https://img.shields.io/github/stars/iKath/QuantumultX)](https://github.com/iKath/QuantumultX/stargazers)
 [![Fork](https://img.shields.io/github/forks/iKath/QuantumultX)](https://github.com/iKath/QuantumultX/network/members)
-[![Commit](https://img.shields.io/github/commit-activity/m/iKath/QuantumultX?label=Commits)](https://github.com/ikath/QuantumultX/commits/main)
 
 
 
