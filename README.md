@@ -1,4 +1,4 @@
-<a href="https://t.me/Kaleidoscopc"><img src="https://github.com/iKath/iKath/blob/main/image/Hello.gif"></a>
+<a href="https://t.me/Kaleidoscopc"><img src="https://github.com/iKath/iKath/blob/main/image/Hello.gif" width="20%" height="20%"></a>
 
 [![Kath's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kath&show_icons=true)](https://github.com/iKath/QuantumultX)
 
