@@ -4,7 +4,6 @@
 
 <a href="https://t.me/imKath"><img src='https://img.shields.io/badge/By-Kath-green'/></a>
 [![Telegram](https://img.shields.io/badge/Telegram-Channel-33A8E3)](https://t.me/Kaleidoscopc)
-![](https://visitor-badge.glitch.me/badge?page_id=iKath.iKath)
 [![](https://img.shields.io/github/followers/iKath?label=follow&style=social)](https://github.com/iKath?tab=followers)
 [![Stars](https://img.shields.io/github/stars/iKath/QuantumultX)](https://github.com/iKath/QuantumultX/stargazers)
 [![Fork](https://img.shields.io/github/forks/iKath/QuantumultX)](https://github.com/iKath/QuantumultX/network/members)
