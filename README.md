@@ -1,6 +1,6 @@
 <a href="https://t.me/GodMoliibot"><img src="https://raw.githubusercontent.com/WSL33099/QuantumultX/main/Image/Hello.gif" width="20%" height="20%"></a>
 
-[![Kath's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kath&show_icons=true&theme=merko)](https://github.com/iKath/QuantumultX)]
+[![Kath's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kath&show_icons=true&theme=dracula)](https://github.com/iKath/QuantumultX)]
 
 <a href="https://t.me/imKath"><img src='https://img.shields.io/badge/By-Kath-green'/></a>
 [![Telegram](https://img.shields.io/badge/Telegram-Channel-33A8E3)](https://t.me/Kaleidoscopc)
