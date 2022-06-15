@@ -1,4 +1,4 @@
-<a href="https://t.me/GodMoliibot"><img src="https://raw.githubusercontent.com/WSL33099/QuantumultX/main/Image/Hello.gif" width="20%" height="20%"></a>
+<a href="https://t.me/GodMoliibot"><img src="https://github.com/iKath/iKath/blob/main/image/Christmas.GIF"></a>
 
 [![Kath's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kath&show_icons=true)](https://github.com/iKath/QuantumultX)
 
