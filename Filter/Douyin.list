@@ -1,0 +1,73 @@
+# NAME: douyin
+# AUTHOR: linchao10058
+# REPO: https://github.com/linchao10058/ios_rule_script_douyin
+# UPDATED: 2022-04-21 20:59:52
+# DOMAIN-SUFFIX: 59
+# TOTAL: 59
+DOMAIN-SUFFIX, video-cn.douyin.com
+DOMAIN-SUFFIX, frontier-im.douyin.com
+DOMAIN-SUFFIX, cloudnproxy.douyin.com
+DOMAIN-SUFFIX, l.douyin.com
+DOMAIN-SUFFIX, i.douyin.com
+DOMAIN-SUFFIX, music.douyin.com
+DOMAIN-SUFFIX, doujia.douyin.com
+DOMAIN-SUFFIX, douhot.douyin.com
+DOMAIN-SUFFIX, tos-d-x-lf.douyin.com
+DOMAIN-SUFFIX, webcast-open.douyin.com
+DOMAIN-SUFFIX, tos-d-lfcu-lq.douyin.com
+DOMAIN-SUFFIX, tos-lfcm-lq.douyin.com
+DOMAIN-SUFFIX, streamingtool.douyin.com
+DOMAIN-SUFFIX, live.douyin.com
+DOMAIN-SUFFIX, tos-agcq-cm.douyin.com
+DOMAIN-SUFFIX, v29.douyin.com
+DOMAIN-SUFFIX, tos-d-lfal-lq.douyin.com
+DOMAIN-SUFFIX, tos-d-lfcmcc-lq.douyin.com
+DOMAIN-SUFFIX, tos-d-lftc-lq.douyin.com
+DOMAIN-SUFFIX, tos-d-lfcm-lq.douyin.com
+DOMAIN-SUFFIX, tos-d-lfali-lq.douyin.com
+DOMAIN-SUFFIX, tos-d-lfck-lq.douyin.com
+DOMAIN-SUFFIX, tos-d-lfgw-lq.douyin.com
+DOMAIN-SUFFIX, tos-d-lfyd-lq.douyin.com
+DOMAIN-SUFFIX, tos-d-lfct-lq.douyin.com
+DOMAIN-SUFFIX, tos-lfcu-lq.douyin.com
+DOMAIN-SUFFIX, mail.douyin.com
+DOMAIN-SUFFIX, open-boe.douyin.com
+DOMAIN-SUFFIX, tos-alinc2bgp-hl-slb1.douyin.com
+DOMAIN-SUFFIX, renzheng.douyin.com
+DOMAIN-SUFFIX, z.douyin.com
+DOMAIN-SUFFIX, vas-hl-x.douyin.com
+DOMAIN-SUFFIX, tos-aglnsy-cm.douyin.com
+DOMAIN-SUFFIX, tos-hl-x.douyin.com
+DOMAIN-SUFFIX, creator.douyin.com
+DOMAIN-SUFFIX, test-www.douyin.com
+DOMAIN-SUFFIX, app.douyin.com
+DOMAIN-SUFFIX, sso.douyin.com
+DOMAIN-SUFFIX, vas-lf-x.douyin.com
+DOMAIN-SUFFIX, wwww.douyin.com
+DOMAIN-SUFFIX, open.douyin.com
+DOMAIN-SUFFIX, tos-lf-x.douyin.com
+DOMAIN-SUFFIX, cloudproxy.douyin.com
+DOMAIN-SUFFIX, vod.douyin.com
+DOMAIN-SUFFIX, proxy.douyin.com
+DOMAIN-SUFFIX, vas-if-x.douyin.com
+DOMAIN-SUFFIX, www.ad.douyin.com
+DOMAIN-SUFFIX, d.douyin.com
+DOMAIN-SUFFIX, media.douyin.com
+DOMAIN-SUFFIX, m.douyin.com
+DOMAIN-SUFFIX, cdn.douyin.com
+DOMAIN-SUFFIX, www.v.douyin.com
+DOMAIN-SUFFIX, effect.douyin.com
+DOMAIN-SUFFIX, musician.douyin.com
+DOMAIN-SUFFIX, e.douyin.com
+DOMAIN-SUFFIX, v.douyin.com
+DOMAIN-SUFFIX, ad.douyin.com
+DOMAIN-SUFFIX, douyin.com
+DOMAIN-SUFFIX, www.douyin.com
+
+host-keyword, douyincdn
+host, aweme.snssdk.com
+host-keyword, douyinpic
+host-keyword, douyinvod
+host, p26-sign.douyinpic.com
+host, api3-normal-c-lf.amemv.com
+host, v1.douyinvod.com
