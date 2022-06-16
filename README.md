@@ -1,6 +1,6 @@
 <a href="https://t.me/Kaleidoscopc"><img src="https://github.com/iKath/iKath/blob/main/image/Hello.gif" width="20%" height="20%"></a>
 
-[![Kath's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kath&show_icons=true)](https://github.com/iKath/QuantumultX)
+[![Kath's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kath&show_icons=true&count_private=true&theme=vue)](https://github.com/iKath/QuantumultX)
 
 <a href="https://t.me/imKath"><img src='https://img.shields.io/badge/By-Kath-green'/></a>
 [![Telegram](https://img.shields.io/badge/Telegram-Channel-33A8E3)](https://t.me/Kaleidoscopc)
