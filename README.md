@@ -54,6 +54,10 @@
     请勿将rules项目的任何内容用于商业或非法目的，否则后果自负.
     如果您认为该项目的内容可能涉嫌侵犯其权利，请与我联系，我会尽快删除文件
     如果您使用并复制了任何本仓库的内容，则视为您已接受此免责声明.
+    
+    
+[*@Blackmatrix7*](https://github.com/blackmatrix7/ios_rule_script) [*@DivineEngine*](https://github.com/DivineEngine) [*@App2smile*](https://github.com/app2smile/rules)  [*@Peng-YM*](https://github.com/Peng-YM) [*@Nick-workflow*](https://github.com/Nick-workflow) [*@KOP-XIAO*](https://github.com/KOP-XIAO) [*@NobyDa*](https://github.com/NobyDa) [*@yjqiang*](https://github.com/yjqiang) [*@O7Y0*](https://github.com/O7Y0) [*@Choler*](https://github.com/Choler) [*@id77*](https://github.com/id77) [*@zmqcherish*](https://github.com/zmqcherish) [*@Qure*](https://github.com/Koolson/Qure) [*@Orz-3*](https://github.com/Orz-3) [*@kyle*](https://github.com/Xirou) [*@其他*](https://github.com/GodMoli) [*@HotKids*](https://github.com/hotKids) [*@langkach*](https://github.com/langkhach270389) [*@lxk0301*](https://github.com/lxk0301) [*@zqzess*](https://github.com/zqzess/rule_for_quantumultX) [*@R·E*](https://github.com/I-am-R-E) [*@VirgilClyne*](https://github.com/VirgilClyne/iRingo#iringo) [*@zZPiglet*](https://github.com/zZPiglet/Task/tree/master) [*@张军*](https://github.com/28413761) [*@Chavyleung*](https://github.com/chavyleung) [*@ddgksf2013*](https://github.com/ddgksf2013/Cuttlefish) [*@king*](https://github.com/nameking77) [*@cherish*](https://github.com/zmqcherish) 
+
 
 #### FAQ
 
