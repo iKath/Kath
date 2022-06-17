@@ -9623,3 +9623,6 @@ HOST-SUFFIX,gzads.com, reject
 HOST-SUFFIX,gz-data.com, reject
 # > GrowingIO
 HOST-SUFFIX,giocdn.com, reject
+# > HDOBOX去广告
+host-suffix, applovin.com, reject
+host-suffix, applvn.com, reject
