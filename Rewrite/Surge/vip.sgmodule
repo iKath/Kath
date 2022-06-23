@@ -1,0 +1,65 @@
+#!name=VIP功能解锁(zyz-20220615)
+#!desc=VIP功能解锁
+
+[MITM]
+hostname = %APPEND% biz.caiyunapp.com,account.wps.cn,*.wtzw.com,api.polaxiong.com,mb3admin.com,buy.itunes.apple.com,xluser-ssl.xunlei.com,vsco.co, api.revenuecat.com,pan.baidu.com,lcs-mobile-cops.adobe.io,createpdf.acrobat.com,mp.weixin.qq.com
+
+[Script]
+# > 解锁
+#微信自动阅读
+
+#微信阅读 = type=http-response,pattern=^https?://mp\.weixin\.qq\.com/s.+?,requires-body=1,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/replace-body.js, argument="</script>->setTimeout(()=>window.history.back(),6000); </script>"
+#彩云天气vip
+
+彩云天气_SVIP = type=http-response,requires-body=1,max-size=0,pattern=https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user),script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/caiyun.js
+
+# > 082 傲軟摳圖解鎖V權限（2022-02-25）@ddgksf2013
+傲軟摳圖解鎖V權限 = type=http-response,pattern=https?:\/\/gw\.aoscdn\.com\/base\/vip\/client\/authorizations$,requires-body=1,script-path=https://raw.githubusercontent.com/28413761/QX/main/jiesuo/apowersoft.js,script-update-interval=0,max-size=0
+
+# Adobe Photoshop, Adobe Illustrator, Adobe Lightroom, Premiere Rush, Adobe Express, Spark Page, Spark Video, Adobe Fresco
+http-response https://lcs-mobile-cops.adobe.io/mobile_profile/nul/v2 requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/jsj0622/Surge/main/adobe.js
+
+# Adobe Scan, Adobe Acrobat
+http-response https://createpdf.acrobat.com/createpdf/api/users/me/subscriptions requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/jsj0622/Surge/main/adobeScanPdf.js
+
+
+
+#百度解锁视频倍率
+http-response https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
+
+#VSCO 解锁高级特权
+http-response ^https:\/\/(api\.revenuecat\.com\/v\d\/subscribers|vsco\.co\/api\/subscriptions\/\d\.\d\/user-subscriptions)\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
+
+# 迅雷 解锁 SVIP
+迅雷 = type=http-response,pattern=^https:\/\/xluser-ssl\.xunlei\.com\/xluser\.core\.login\/v3\/getuserinfo$,requires-body=1,script-path=https://raw.githubusercontent.com/jsj0622/Surge/main/xunlei.js,script-update-interval=0,max-size=0
+
+# ProKnockOut 解锁 Premium
+Premium = type=http-response,pattern=https://buy.itunes.apple.com/verifyReceipt,requires-body=1,script-path=https://raw.githubusercontent.com/jsj0622/Surge/main/proKnockOut.js,script-update-interval=0,max-size=0
+
+# Emby
+Emby = type=http-response,pattern=^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey),requires-body=1,script-path=https://raw.githubusercontent.com/zlking02/Emby/main/Script/embycrack.js,script-update-interval=0,max-size=0
+
+# > 七猫小说解锁终身V + 去除所有广告 + 无限下载权限 + 无限听书权限 + 无限阅读权限
+七猫小说解锁终身V = type=http-response,pattern=^https?:\/\/(api-\w+|xiaoshuo)\.wtzw\.com\/api\/v\d\/,requires-body=1,script-path=https://raw.githubusercontent.com/28413761/QX/main/jiesuo/QiMaoXiaoShuo.js,script-update-interval=0,max-size=0
+
+# > 美图秀秀(2022.01.17) 解锁高级V（包括但不限于：付费海报模板、高级滤镜、高级素材等），无须登陆!
+美图秀秀(2022.01.17) = type=http-response,pattern=^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/,requires-body=1,script-path=https://raw.githubusercontent.com/28413761/QX/main/jiaoben/MeiTuXiuXiu.js,script-update-interval=0,max-size=0
+
+# > WPS解锁超级V，wpsV，稻壳V
+WPS解锁超级V = type=http-response,pattern=^https?:\/\/account\.wps\.cn\/api\/users,requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js,script-update-interval=0,max-size=0
+
+# > 酷我音乐解锁SV
+酷我音乐解锁SV = type=http-response,pattern=^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice),requires-body=1,script-path=https://raw.githubusercontent.com/28413761/QX/main/jiaoben/Kuwo.js,script-update-interval=0,max-size=0
+
+# > 066 酷我音乐解除下载权限 (2022-01-25) by ddgksf2013
+酷我音乐解除下载权限 = type=http-request,pattern=^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver=\d,requires-body=1,script-path=https://raw.githubusercontent.com/28413761/QX/main/jiesuo/kuwodl.js,script-update-interval=0,max-size=0
+
+# > 060 我奥篮球 （2021-05-15） by photonmang
+我奥篮球 = type=http-response,pattern=http://api.woaoo.net/.+,requires-body=1,script-path=https://raw.githubusercontent.com/28413761/QX/main/jiesuo/walq.js,script-update-interval=0,max-size=0
+
+# > 059 西窗烛 （2021-05-14） by ddgksf2013
+西窗烛 = type=http-response,pattern=https://lchttpapi.xczim.com/*,requires-body=1,script-path=https://raw.githubusercontent.com/28413761/QX/main/jiesuo/xcz.js,script-update-interval=0,max-size=0
+
+
+# > 056 酷我皮肤（2021-04-25） by ddgksf2013
+酷我皮肤 = type=http-response,pattern=^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/theme) ,requires-body=1,script-path=https://raw.githubusercontent.com/28413761/QX/main/jiesuo/theme.js,script-update-interval=0,max-size=0
